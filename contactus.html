@@ -130,73 +130,23 @@
         <!-- end of info-box -->
       </div>
       <div class="col-sm-5">
-        <span>
-          <h4 class="headings">Submit Query</h4>
-        </span>
-        <form id="contact-form" name="contact-form" action="#" method="POST" data-netlify="true"
-          data-netlify-recaptcha="true">
-
-          <!--Grid row-->
-          <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="name" name="name" class="form-control" required="true">
-                <label for="name" class="">Your name</label>
-              </div>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="email" name="email" class="form-control" required="true">
-                <label for="email" class="">Your email</label>
-              </div>
-            </div>
-            <!--Grid column-->
-
-          </div>
-          <!--Grid row-->
-
-          <!--Grid row-->
-          <div class="row">
-            <div class="col-md-12">
-              <div class="md-form mb-0">
-                <input type="text" id="subject" name="subject" class="form-control" required="true">
-                <label for="subject" class="">Subject</label>
-              </div>
-            </div>
-          </div>
-          <!--Grid row-->
-
-          <!--Grid row-->
-          <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-12">
-
-              <div class="md-form">
-                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
-                  required="true"></textarea>
-                <label for="message">Your message</label>
-              </div>
-
-            </div>
-          </div>
-          <!--Grid row-->
-
+        <span class="headings">Submit Query</span>
+        <div>&nbsp;</div>
+        <form id="contact-form" name="contact-form" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <label for="name" class="text">Your name</label><br />
+          <input type="text" id="name" name="name" required="true" class="form-control"><br />
+          <label for="email" class="text">Your email</label><br />
+          <input type="text" id="email" name="email" required="true" class="form-control"><br />
+          <label for="subject" class="text">Subject</label><br />
+          <input type="text" id="subject" name="subject" required="true" class="form-control"><br />
+          <label for="message">Your message</label><br />
+          <textarea type="text" id="message" name="message" required="true" class="form-control"></textarea><br />
+          <button class="btn btn-primary" type="submit">Send Query</a></button>
         </form>
-
-        <div class="text-center text-md-left">
-          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-        </div>
-        <div class="status"></div>
       </div>
-      <!--Grid column-->
-      <!-- Old Code Below for the span -->
-      <!-- start of info-box 
+        <!--Grid column-->
+        <!-- Old Code Below for the span -->
+        <!-- start of info-box 
         <div>
           <span class="headings">Corporate Office</span>
           <div class="cont_add">
@@ -221,18 +171,17 @@
             </ul>
           </div>
         </div> -->
-      <!-- end of info-box -->
-    </div>
-    <div class="col-sm-3">
-      <span class="headings">Social Media</span>
-      <div style="margin:10px">
-        <a href="https://www.facebook.com/srimantanyk" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/srimanta" class="fa fa-twitter"></a>
-        <a href="https://www.youtube.com/channel/UCKNmRxfRXuzbFWIZwT9xTxw" class="fa fa-youtube"></a>
-        <a href="#" class="fa fa-linkedin"></a>
+        <!-- end of info-box -->
+      <div class="col-sm-3">
+        <span class="headings">Social Media</span>
+        <div style="margin:10px">
+          <a href="https://www.facebook.com/srimantanyk" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/srimanta" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/channel/UCKNmRxfRXuzbFWIZwT9xTxw" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 </body>
 
