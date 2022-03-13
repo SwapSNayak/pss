@@ -1,4 +1,0 @@
-banner size: make it less height
-icons of the services: change color
-read more.. link
-logo:montserrat 
