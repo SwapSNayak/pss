@@ -6,6 +6,7 @@ body{
 	margin-left: -50%;
 	
 }
+
 .product_icons{
 	margin-left: 40%;
 	margin-bottom: 5%;
@@ -297,6 +298,9 @@ p.add1 {
   border-bottom: 3px solid #909090;
 	padding-bottom: 10px;
 }
+.accordion_bg{
+	background-color: #ddd;
+}
 
 
 
@@ -310,7 +314,35 @@ p.add1 {
 
 .accordion.active:after {
   content: "\2212";
+	
 }
+/*.card-header.card-link:after {
+  content: "\2212";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  }*/
+  /* Icon when the collapsible content is hidden */
+ /* .card-header.card-link.collapsed:after {
+    content: '\002B';
+  }*/
+
+.card-header > a:before {
+    float: right !important;
+    content: "\2212";    
+    padding-right: 5px;
+}
+.card-header > a.collapsed:before {
+    float: right !important;
+	content: '\002B';
+    
+}
+.card-header > a:hover, 
+.card-header > a:active, 
+.card-header > a:focus  {
+    text-decoration:none;
+}
+
 
 .panel {
   padding: 10 6px;
@@ -364,7 +396,7 @@ ul.ullineheight li{
 .linktextcommon:hover{
 	text-decoration: none;
 	color:#666;
-	color:#666;
+	
 }
 .kycsubheading{
 	color: #fdd947;
@@ -374,6 +406,11 @@ ul.ullineheight li{
 .boxMgmt {
     text-align: center;
     padding: 0px 25px;
+}
+}
+@media only screen and (max-width: 600px) {
+ .form_heading {
+    margin: 10px 0px 20px 0px;
 }
 }
 /*About us*/
@@ -563,4 +600,19 @@ h4.headingSignup {
   .modal-body {
     overflow-y: auto;
   }
+}
+/*/nftCheckList.html*/
+.nft_ol{
+	margin-bottom: 20px;
+}
+.nftdownload{
+	float:right;
+	padding-right: 30px;
+}
+.nftdownload a{
+	
+    color: #ed3338;
+    border-bottom: dashed 1px #ed3338;
+    font-weight: 500;
+
 }
